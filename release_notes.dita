@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="z1-release-notes">
+    <title>Release Notes – Z1 Encryption Server v5.2</title>
+    <shortdesc>This document summarizes the key changes, improvements, and fixes in version 5.2 of the Z1 Encryption Server.</shortdesc>
+    
+    <body>
+        <section>
+            <title>Overview</title>
+            <p>
+                Version 5.2 introduces several performance enhancements and new administrative features that improve the efficiency, reliability, 
+                and security of encrypted communications.
+            </p>
+        </section>
+        
+        <section>
+            <title>New Features</title>
+            <ul>
+                <li><b>Enhanced Key Management:</b> Added support for ECC (Elliptic Curve Cryptography) keys up to 521 bits.</li>
+                <li><b>Improved Web Interface:</b> Redesigned dashboard with faster response time and new search filters.</li>
+                <li><b>API Tokens:</b> Introduced secure API tokens for automation and integration with third-party systems.</li>
+            </ul>
+        </section>
+        
+        <section>
+            <title>Improvements</title>
+            <ul>
+                <li>Optimized startup process to reduce initialization time by 25%.</li>
+                <li>Refined log file management for easier debugging and traceability.</li>
+                <li>Updated LDAP integration module for improved connection stability.</li>
+            </ul>
+        </section>
+        
+        <section>
+            <title>Bug Fixes</title>
+            <ul>
+                <li>Resolved an issue where scheduled backups occasionally failed under high load.</li>
+                <li>Fixed incorrect display of license expiration date in the admin panel.</li>
+                <li>Addressed a UI alignment issue on smaller screens.</li>
+            </ul>
+        </section>
+        
+        <section>
+            <title>Known Issues</title>
+            <p>
+                In some environments, the initial configuration wizard may require a manual browser refresh. 
+                A patch will be provided in version 5.2.1.
+            </p>
+        </section>
+        
+        <section>
+            <title>Upgrade Notes</title>
+            <p>
+                Before upgrading from version 5.1, export your existing key configurations and verify database backups. 
+                Run the upgrade installer as administrator and confirm all services restart successfully.
+            </p>
+        </section>
+    </body>
+</topic>
+

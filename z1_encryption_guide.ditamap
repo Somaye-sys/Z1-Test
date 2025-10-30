@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Z1-Encryption-Guide</title>
+    <topicref href="installation_guide.dita"/>
+    <topicref href="configuration_guide.dita"/>
+    <topicref href="release_notes.dita"/>
+</map>

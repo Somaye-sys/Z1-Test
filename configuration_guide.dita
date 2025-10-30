@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="z1-configuration">
+    <title>Configuration Guide</title>
+    <shortdesc>This guide explains how to configure and activate the Z1 Encryption Server after installation.</shortdesc>
+    
+    <body>
+        <section>
+            <title>Accessing the Configuration Interface</title>
+            <p>
+                After the installation, open your web browser and access the Z1 Administration Interface using the following URL:
+            </p>
+            <codeblock>https://localhost:8443</codeblock>
+            <p>
+                Log in with your administrator credentials created during setup. If you are accessing the interface remotely, ensure that port <code>8443</code> is open in your firewall.
+            </p>
+        </section>
+        
+        <section>
+            <title>Setting Up Encryption Keys</title>
+            <p>
+                Encryption keys are essential for securing communication. Follow these steps to generate and store your keys:
+            </p>
+            <ol>
+                <li>In the Administration Interface, navigate to <u>Security</u> → <u>Key Management</u>.</li>
+                <li>Click <b>Generate New Key</b> and choose the key type (RSA or ECC).</li>
+                <li>Select the key length (2048 or 4096 bits) and assign a descriptive name.</li>
+                <li>Click <b>Save</b> to store the key securely in the local keystore.</li>
+            </ol>
+        </section>
+        
+        <section>
+            <title>Connecting to the Directory Service</title>
+            <p>
+                To enable automatic certificate lookup and user management, integrate Z1 with your directory service:
+            </p>
+            <ol>
+                <li>Go to <u>Configuration</u> → <u>Directory Settings</u>.</li>
+                <li>Select your service type: <b>Active Directory</b> or <b>LDAP</b>.</li>
+                <li>Enter the server address, port number, and authentication credentials.</li>
+                <li>Click <b>Test Connection</b> to verify connectivity.</li>
+            </ol>
+        </section>
+    </body>
+</topic>
+                    

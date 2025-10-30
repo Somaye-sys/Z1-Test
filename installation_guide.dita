@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="installation_guide">
+    <title>installation-guide</title>
+        <shortdesc>This guide describes how to install the Z1 Encryption Server on Windows or Linux
+            environments.</shortdesc>
+<body>
+    <section>
+        <title>Overview</title>
+        <p>The Z1 Encryption Server ensures secure email and file communication within your organization. 
+            Before you begin, make sure you have administrator rights on the target system and internet access for license validation.
+        </p>
+    </section>
+    <section>
+        <title>Before you begin</title>
+        <ul>
+            <li>Public IP: Connected to your NLB</li>
+            <li>Private IP: <xref href="https://www.zertificon.com" format="html">https://www.zertificon.com</xref>
+            </li>
+        </ul>
+        <p></p>
+    </section>
+</body>
+</topic>
