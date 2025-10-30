@@ -14,7 +14,7 @@
     <section>
         <title>Before you begin</title>
         <ul>
-            <li>Public IP: Connected to your NLB(network load balance)</li>
+            <li>Public IP: Connected to your NLB(Network Load Balance)</li>
             <li>Private IP: <xref href="https://www.zertificon.com" format="html">https://www.zertificon.com</xref>
             </li>
         </ul>
