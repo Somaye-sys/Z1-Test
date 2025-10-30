@@ -2,45 +2,61 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="z1-configuration">
     <title>Configuration Guide</title>
-    <shortdesc>This guide explains how to configure and activate the Z1 Encryption Server after installation.</shortdesc>
-    
+    <shortdesc>This guide explains how to configure and activate the Z1 Encryption Server after
+        installation.</shortdesc>
     <body>
-        <section>
+        <section id="section_zbg_4tn_dhc">
             <title>Accessing the Configuration Interface</title>
             <p>
-                After the installation, open your web browser and access the Z1 Administration Interface using the following URL:
+                <?oxy_comment_start author="AI Positron" comment="Consider removing &apos;the&apos; before &apos;installation&apos; for conciseness: &apos;After installation, open your web browser...&apos;."?>After
+                the installation, open your web browser and access the Z1 Administration Interface
+                using the following URL:<?oxy_comment_end?>
             </p>
-            <codeblock>https://localhost:8443</codeblock>
+            <codeblock id="codeblock_acg_4tn_dhc">https://localhost:8443</codeblock>
             <p>
-                Log in with your administrator credentials created during setup. If you are accessing the interface remotely, ensure that port <code>8443</code> is open in your firewall.
+                <?oxy_comment_start author="AI Positron" comment="For clarity, consider specifying &apos;administrator credentials that you created during setup.&apos; Also, consider splitting the second sentence for readability: &apos;If you are accessing the interface remotely, ensure that port 8443 is open on your firewall.&apos;."?>Log
+                in with your administrator credentials created during setup. If you are accessing
+                the interface remotely, ensure that port <codeph>8443</codeph> is open in your
+                firewall.<?oxy_comment_end?>
             </p>
         </section>
-        
-        <section>
+        <section id="section_bcg_4tn_dhc">
             <title>Setting Up Encryption Keys</title>
             <p>
-                Encryption keys are essential for securing communication. Follow these steps to generate and store your keys:
+                <?oxy_comment_start author="AI Positron" comment="Consider rephrasing for clarity: &apos;Encryption keys are essential for securing communications.&apos; (plural) and &apos;Follow these steps to generate and store keys:&apos;."?>Encryption
+                keys are essential for securing communication. Follow these steps to generate and
+                store your keys:<?oxy_comment_end?>
             </p>
-            <ol>
-                <li>In the Administration Interface, navigate to <u>Security</u> → <u>Key Management</u>.</li>
-                <li>Click <b>Generate New Key</b> and choose the key type (RSA or ECC).</li>
-                <li>Select the key length (2048 or 4096 bits) and assign a descriptive name.</li>
-                <li>Click <b>Save</b> to store the key securely in the local keystore.</li>
+            <ol id="ol_ccg_4tn_dhc">
+                <li><?oxy_comment_start author="AI Positron"?>In the Administration Interface,
+                    navigate to <u>Security</u> → <u>Key Management</u>.<?oxy_comment_end?></li>
+                <li><?oxy_comment_start author="AI Positron"?>Click <b>Generate New Key</b> and
+                    choose the key type (RSA or ECC).<?oxy_comment_end?></li>
+                <li><?oxy_comment_start author="AI Positron" comment="Consider rephrasing for parallel structure: &apos;Select the key length (2048 or 4096 bits) and assign a descriptive name to the key.&apos;."?>Select
+                    the key length (2048 or 4096 bits) and assign a descriptive
+                    name.<?oxy_comment_end?></li>
+                <li><?oxy_comment_start author="AI Positron"?>Click <b>Save</b> to store the key
+                    securely in the local keystore.<?oxy_comment_end?></li>
             </ol>
         </section>
-        
-        <section>
+        <section id="section_dcg_4tn_dhc">
             <title>Connecting to the Directory Service</title>
             <p>
-                To enable automatic certificate lookup and user management, integrate Z1 with your directory service:
+                <?oxy_comment_start author="AI Positron" comment="Consider rephrasing for clarity: &apos;To enable automatic certificate lookup and user management, integrate Z1 with your directory service as follows:&apos;."?>To
+                enable automatic certificate lookup and user management, integrate Z1 with your
+                directory service:<?oxy_comment_end?>
             </p>
-            <ol>
-                <li>Go to <u>Configuration</u> → <u>Directory Settings</u>.</li>
-                <li>Select your service type: <b>Active Directory</b> or <b>LDAP</b>.</li>
-                <li>Enter the server address, port number, and authentication credentials.</li>
-                <li>Click <b>Test Connection</b> to verify connectivity.</li>
+            <ol id="ol_ecg_4tn_dhc">
+                <li><?oxy_comment_start author="AI Positron"?>Go to <u>Configuration</u> →
+                        <u>Directory Settings</u>.<?oxy_comment_end?></li>
+                <li><?oxy_comment_start author="AI Positron"?>Select your service type: <b>Active
+                        Directory</b> or <b>LDAP</b>.<?oxy_comment_end?></li>
+                <li><?oxy_comment_start author="AI Positron" comment="Consider specifying: &apos;Enter the directory server address, port number, and authentication credentials.&apos;."?>Enter
+                    the server address, port number, and authentication
+                    credentials.<?oxy_comment_end?></li>
+                <li><?oxy_comment_start author="AI Positron"?>Click <b>Test Connection</b> to verify
+                    connectivity.<?oxy_comment_end?></li>
             </ol>
         </section>
     </body>
 </topic>
-                    

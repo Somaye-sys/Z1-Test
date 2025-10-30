@@ -1,24 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="installation_guide">
-    <title>installation-guide</title>
-        <shortdesc>This guide describes how to install the Z1 Encryption Server on Windows or Linux
-            environments.</shortdesc>
-<body>
-    <section>
-        <title>Overview</title>
-        <p>The Z1 Encryption Server ensures secure email and file communication within your organization. 
-            Before you begin, make sure you have administrator rights on the target system and internet access for license validation.
-        </p>
-    </section>
-    <section>
-        <title>Before you begin</title>
-        <ul>
-            <li>Public IP: Connected to your NLB</li>
-            <li>Private IP: <xref href="https://www.zertificon.com" format="html">https://www.zertificon.com</xref>
-            </li>
-        </ul>
-        <p></p>
-    </section>
-</body>
+    <title>
+        <?oxy_comment_start author="AI Positron" comment="Capitalize the title for consistency and professionalism. Suggest: &apos;Installation Guide&apos;."?>installation-guide<?oxy_comment_end?>
+    </title>
+    <shortdesc>
+        <?oxy_comment_start author="AI Positron" comment="Consider rephrasing for clarity and conciseness. Suggest: &apos;This guide describes how to install the Z1 Encryption Server on Windows and Linux environments.&apos; (Replace &apos;or&apos; with &apos;and&apos; if both are supported, or clarify if only one is applicable.)"?>This
+        guide describes how to install the Z1 Encryption Server on Windows or Linux
+        environments.<?oxy_comment_end?>
+    </shortdesc>
+    <body>
+        <section id="section_lkg_rwn_dhc">
+            <title>Overview</title>
+            <p>
+                <?oxy_comment_start author="AI Positron" comment="Consider splitting the first sentence for improved readability. Also, &apos;internet&apos; should be capitalized as &apos;Internet&apos; when referring to the global network. Suggest: &apos;The Z1 Encryption Server ensures secure email and file communication within your organization. Before you begin, ensure you have administrator rights on the target system and Internet access for license validation.&apos;"?>The
+                Z1 Encryption Server ensures secure email and file communication within your
+                organization. Before you begin, make sure you have administrator rights on the
+                target system and internet access for license validation. <?oxy_comment_end?>
+            </p>
+        </section>
+        <section id="section_mkg_rwn_dhc">
+            <title>
+                <?oxy_comment_start author="AI Positron" comment="Consider capitalizing the section title for consistency. Suggest: &apos;Before You Begin&apos;."?>Before
+                you begin<?oxy_comment_end?>
+            </title>
+            <ul id="ul_nkg_rwn_dhc">
+                <li>
+                    <?oxy_comment_start author="AI Positron" comment="Clarify the meaning of &apos;Connected to your NLB(Network Load Balance)&apos;. Consider rephrasing for clarity, e.g., &apos;Public IP: Must be connected to your Network Load Balancer (NLB).&apos; Also, add a space before the parenthesis and use the full term on first use."?>Public
+                    IP: Connected to your NLB(Network Load Balance)<?oxy_comment_end?>
+                </li>
+                <li>
+                    <?oxy_comment_start author="AI Positron" comment="The purpose of providing the Zertificon website as a &apos;Private IP&apos; is unclear. Clarify the instruction or provide additional context. If this is a placeholder, indicate as such."?>Private
+                    IP: <xref href="https://www.zertificon.com" format="html" scope="external"
+                        >https://www.zertificon.com</xref> <?oxy_comment_end?>
+                </li>
+            </ul>
+            <p><?oxy_comment_start author="AI Positron" comment="This paragraph is empty. Remove it or provide relevant content."?></p><?oxy_comment_end?>
+        </section>
+    </body>
 </topic>
